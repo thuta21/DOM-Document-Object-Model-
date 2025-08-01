@@ -1,5 +1,5 @@
 
-#### Content
+#### Contents
 
 1. DOM Traversing
 2. DOM Manipulation

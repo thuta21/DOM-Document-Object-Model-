@@ -1,5 +1,5 @@
 
-#### Content
+#### Contents
 
 1. Events & Event Listeners
 2. Event Propagation (Bubbling & Capturing) 

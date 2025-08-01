@@ -1,5 +1,5 @@
 
-#### Content
+#### Contents
 
 1. `getElementById()`
 2. `getElementByClassName()`
