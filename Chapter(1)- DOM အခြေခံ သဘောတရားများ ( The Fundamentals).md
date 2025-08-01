@@ -73,21 +73,24 @@ DOM Tree ပုံစံ:
 
 ### **3. Static Website နဲ့ Dynamic Website ကွာခြားချက်မှာ DOM က ဘယ်လိုအခန်းကဏ္ဍက ပါဝင်လဲ။**
 
-**Static Website (ပုံသေ Website):**
+
+**# Static Website (ပုံသေ Website):**
 
 Static website များသည် server ပေါ်တွင် ကြိုတင်ရေးသားသိမ်းဆည်းထားသော HTML, CSS, JavaScript ဖိုင်များကို အသုံးပြုသူ (user) တောင်းဆိုသည့်အခါ မပြောင်းလဲပဲ ပြန်လည်ပြသပေးသော website အမျိုးအစားဖြစ်သည်။ ဆိုလိုတာက user တိုင်းအတွက် contents တွေက အတူတူပါပဲ။ 
 
 Static Website များမှာက DOM သည် browser မှ page ကို load လုပ်သည့်အချိန်တွင် တစ်ကြိမ်သာ တည်ဆောက်တယ်။ JavaScript အနည်းငယ်ဖြင့် DOM ကို ပြောင်းလဲနိုင်သော်လည်း (ဥပမာ - image slider)၊ အခြေခံ content သည် ပြောင်းလဲသွားခြင်းမရှိပါဘူး။ DOM ၏ အဓိကအခန်းကဏ္ဍမှာ page ရဲ့ ကနဦးတည်ဆောက်ပုံကို ဖော်ပြဖို့ အတွက်သာဖြစ်ပါတယ်။
 
-**Dynamic Website (အပြောင်းအလဲရှိသော Website):**
+
+**# Dynamic Website (အပြောင်းအလဲရှိသော Website):**
 
 Dynamic website များသည် user တွေရဲ့ တောင်းဆိုမှု၊ အချိန်၊ တည်နေရာ၊ သို့မဟုတ် အခြားသော အချက်အလက်များပေါ်မူတည်၍ content များကို အချိန်နှင့်တပြေးညီ (real-time) ထုတ်လုပ်ပြောင်းလဲပေးသော website အမျိုးအစားဖြစ်ပါတယ်။ (ဥပမာ - Facebook, YouTube, e-commerce)
 
-**DOM ၏ အဓိကအခန်းကဏ္ဍ:**
 
-**User Interaction:** User က ခလုတ်တစ်ခုကို နှိပ်ခြင်း၊ form တစ်ခုဖြည့်စွက်ခြင်း၊ သို့မဟုတ် page ကို scroll လုပ်ခြင်းစသည့် လုပ်ဆောင်မှုများ ပြုလုပ်သည့်အခါ JavaScript က DOM ကို အသုံးပြု၍ page ရဲ့အစိတ်အပိုင်းများကို အသစ်ထပ်ထည့်ခြင်း (e.g., loading more posts)၊ ဖယ်ရှားခြင်း၊ သို့မဟုတ် ရှိပြီးသား content ကို ပြောင်းလဲခြင်း (e.g., updating a shopping cart) များ ပြုလုပ်ပါတယ်။
+**# DOM ၏ အဓိကအခန်းကဏ္ဍ:**
 
-**Data from Server:** Server မှ data အသစ်များ (ဥပမာ - chat message အသစ်၊ notification အသစ်) ရောက်ရှိလာသည့်အခါ JavaScript က ထို data များကို DOM ထဲသို့ ထည့်သွင်း၍ page ကို refresh မလုပ်ဘဲ အလိုအလျောက် update လုပ်ပေးတယ်။
+**User Interaction:** User က ခလုတ်တစ်ခုကို နှိပ်ခြင်း၊ form တစ်ခုဖြည့်စွက်ခြင်း၊ သို့မဟုတ် page ကို scroll လုပ်ခြင်းစသည့် လုပ်ဆောင်မှုများ ပြုလုပ်သည့်အခါ JavaScript က DOM ကို အသုံးပြုပြီး page ရဲ့အစိတ်အပိုင်းများကို အသစ်ထပ်ထည့်ခြင်း (e.g., loading more posts)၊ ဖယ်ရှားခြင်း၊ သို့မဟုတ် ရှိပြီးသား content ကို ပြောင်းလဲခြင်း (e.g., updating a shopping cart) များ ပြုလုပ်ပါတယ်။
+
+Server မှ data အသစ်များ (ဥပမာ - chat message အသစ်၊ notification အသစ်) ရောက်ရှိလာသည့်အခါ JavaScript က ထို data များကို DOM ထဲသို့ ထည့်သွင်း၍ page ကို refresh မလုပ်ဘဲ အလိုအလျောက် update လုပ်ပေးတယ်။
 
 ဒီလောက်ဆို DOM အခြေခံလောက်ကို သဘောပေါက်လောက်မယ်ထင်ပါတယ်။ နောက်အပိုင်းမှာ စပြီး လက်တွေ့အသုံးချကြည့်ပါမယ်။
 
